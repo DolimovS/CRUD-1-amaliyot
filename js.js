@@ -65,10 +65,11 @@ creatForm.addEventListener("submit",(e)=>{
         getData()
     }
     else{
+        message.style.display="block"
         message.textContent="Malumotni kiriting..."
         setInterval(()=>{
         message.textContent=""
-        },2000)
+        },3000)
     }
     // console.log(todos);
 })
